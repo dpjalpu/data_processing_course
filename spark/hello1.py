@@ -8,3 +8,4 @@ print(rdd.count())
 # Also spark-submit hello1.py --conf spark.logLineage=true
 print(rdd.toDebugString().decode('utf-8'))
 
+
